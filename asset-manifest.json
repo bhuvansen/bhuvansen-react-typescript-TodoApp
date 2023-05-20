@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bhuvansen-react-typescript-TodoApp/static/css/main.e6c13ad2.css",
+    "main.js": "/bhuvansen-react-typescript-TodoApp/static/js/main.3131b24d.js",
+    "index.html": "/bhuvansen-react-typescript-TodoApp/index.html",
+    "main.e6c13ad2.css.map": "/bhuvansen-react-typescript-TodoApp/static/css/main.e6c13ad2.css.map",
+    "main.3131b24d.js.map": "/bhuvansen-react-typescript-TodoApp/static/js/main.3131b24d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3131b24d.js"
+  ]
+}
