@@ -1,55 +1,55 @@
-.todos{
-    display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-    flex-wrap: wrap;
+.todos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
 }
 
-.todoBox{
-    display: flex;
-    width: 29.5%;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 15px;
-    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+.todoBox {
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
 }
 
-.todoText{
-    flex: 1;
-    padding: 5px;
-    border: none;
-    font-size: 20px;
+.todoText {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
 }
 
-.todoText:focus{
-    outline: none;
+.todoText:focus {
+  outline: none;
 }
 
-.todoText-edit{
-    outline: none;
-    border: none;
+.todoText-edit {
+  outline: none;
+  border: none;
 }
 
-.icon{
-    margin-left: 10px;
-    font-size: 25px;
-    cursor: pointer;
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 @media (max-width: 700px) {
-    .input{
-        width: 95%;
-    }
-    .todos{
-        width: 95%;
-    }
-    .todoBox{
-        width: 100%;
-    }
+  .input {
+    width: 95%;
+  }
+  .todos {
+    width: 95%;
+  }
+  .todoBox {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
-    .todoBox{
-        width: 40%;
-    }
+  .todoBox {
+    width: 40%;
+  }
 }

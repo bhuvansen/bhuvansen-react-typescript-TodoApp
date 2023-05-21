@@ -1,23 +1,18 @@
-import React from 'react'
+import React from "react"
 import "./TodoList.css"
-import {Todo} from"../../models"
-import TodoBox from './TodoBox'
+import { Todo } from "../../models"
+import TodoBox from "./TodoBox"
 
-interface Props{
-  todos:Todo[],
-  setTodos:React.Dispatch<React.SetStateAction<Todo[]>>
+interface Props {
+  todos: Todo[]
+  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
 }
 
-const TodoList :React.FC<Props> = ({todos, setTodos}) => {
+const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
   return (
-    <div className='todos'>
-      {todos.map((item)=>(
-        <TodoBox 
-          todo = {item}
-          key = {item.id}
-          todos = {todos}
-          setTodos = {setTodos}
-        />
+    <div className="todos">
+      {todos.map((item) => (
+        <TodoBox todo={item} key={item.id} todos={todos} setTodos={setTodos} />
       ))}
     </div>
   )
